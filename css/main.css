@@ -1,263 +1,330 @@
-/*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
+/*html,button,input,select,textarea{*/
+/*  color: #444;*/
+/*}*/
+/*@page {*/
+/*  size: A4;*/
+/*  margin: 0;*/
+/*}*/
+/*html{*/
+/*  font-size: 1em;*/
+/*  !*line-break: 1.4em;*!*/
+/*  background-color: #777;*/
 
-/* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
 
-/* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
+/*}*/
+/*.wrapper {*/
+/*  max-width: 900px;*/
+/*  min-width: 320px;*/
+/*  margin: auto;*/
+/*}*/
+/*body{*/
+
+/*  text-align: center;*/
+/*  font-family: 'Merriweather', serif;*/
+/*  font-size: 16px;*/
+/*  font-weight: normal;*/
+/*  !*color: #40514E;*!*/
+/*  width: 70%;*/
+/*  margin :auto;*/
+/*  !*height: 100px;*!*/
+
+
+
+/*}*/
+/*#experiences{*/
+/*  line-height: 15px;*/
+/*}*/
+
+
+/*header{*/
+/*  border-radius: 3px;*/
+/*  !*background-color: #F4F3EE;*!*/
+/*  box-shadow: 0  2px 4px rgba(0, 0, 0, .2);*/
+/*  !*padding: 10px;*!*/
+/*  margin: auto;*/
+/*  height: 190px;*/
+/*  !*width: 80%;*!*/
+/*  background-color: white;*/
+/*}*/
+
+header h2 {
+  margin-top: 0;
+}
+header h1 {
+  /*margin: 10px auto 0 auto;*/
+  font-family: 'Sacramento', cursive;
+  font-size: 50px;
+  color: black;
+  display: inline;
+ /* position: relative;*/
+ /*right: 200px;*/
+}
+/*formation h2{*/
+/*  font-family: 'Merriweather', serif;*/
+/*}*/
+
+
+/*img{*/
+/*  border-radius: 50%;*/
+/*  width: 180px;*/
+/*  height: 180px;*/
+/*  float: right;*/
+/* margin-right: 3px;*/
+/*  margin-top: 3px;*/
+/*}*/
+/* #description {*/
+
+/*  text-align: left;*/
+/*   width: 50%;*/
+/*  margin: 20px;*/
+/*   font-family: 'Sacramento', cursive;*/
+
+
+/*}*/
+/*li{*/
+/*  list-style: none;*/
+
+/*}*/
+
+/*.grid-item h2 {*/
+/* text-align: left;*/
+
+
+
+/*}*/
+/*h3 , h4{*/
+/*  color: white;*/
+/*  font-family: 'Source Sans Pro', sans-serif;*/
+/*  font-size: 28px;*/
+/*  font-weight: 400;*/
+/*  !*line-height: 10px;*!*/
+/*  margin: 0 0 24px;*/
+/*  text-align: left;*/
+/*}*/
+
+/*p , dd ,li { color: #4c4a37; font-family: 'Source Sans Pro', sans-serif; font-size: 18px;  }*/
+
+/*a {*/
+/*  width:100px;*/
+/*  text-decoration: none;*/
+/*  color: white;*/
+/*}.*/
+
+/*footer{*/
+/*  text-align: center;*/
+/*   height: 70px;*/
+/*   background-color: #BCB8B1;*/
+/*}*/
+
+/*.fa {*/
+/*  padding: 10px;*/
+/*  font-size: 30px;*/
+/*  width: 50px;*/
+/*  text-align: center;*/
+/*  text-decoration: none;*/
+/*  margin: 10px;*/
+
+
+/*}*/
+/*!* Facebook *!*/
+
+/*!*article{*!*/
+
+/*!*  color: black;*!*/
+/*!*  text-align: left;*!*/
+/*!*}*!*/
+/*!*.grid-item h2{*!*/
+/*!*  text-align: left;*!*/
+/*!*  font-family: 'Sacramento', cursive;*!*/
+/*!*  color: #7e9c97;*!*/
+/*!*  padding: 10px;*!*/
+/*!*}*!*/
+/*#experiences h3{*/
+
+/*}*/
+/*.grid-container {*/
+/*  !*background-color: #BCB8B1;*!*/
+/*  display: grid;*/
+/*  grid-template-columns: auto auto;*/
+/*  grid-auto-columns: auto;*/
+/*  padding: 10px;*/
+/*  height: 80%;*/
+
+/*}*/
+/*.grid-item {*/
+
+/*  padding: 20px;*/
+/*  font-size: 30px;*/
+/*  text-align: left;*/
+/*  height: auto;*/
+/*  !*text-align: left;*!*/
+/*}*/
+/*!*.grid-container {*!*/
+/*!*  display: inline-grid;*!*/
+/*!*}*!*/
+/*#read-more{*/
+/*display: none;*/
+/*}*/
+html , button , input , select , textarea {
+  color: #444;
+}
 
 html {
-  color: #222;
   font-size: 1em;
   line-height: 1.4;
+  background-color: #f0efeb;
+  font-family: asul, sans-serif;
+
 }
 
-/*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
- * Vendor-prefixed and regular ::selection selectors cannot be combined:
- * https://stackoverflow.com/a/16982510/7133471
- *
- * Customize the background color to match your design.
- */
+#wrapper {
+  max-width: 900px;
+  min-width: 320px;
+  margin: auto;
 
-::-moz-selection {
-  background: #b3d4fc;
-  text-shadow: none;
+
 }
 
-::selection {
-  background: #b3d4fc;
-  text-shadow: none;
+header{
+  border-radius: 3px;
+  color: #8a8181 ;
+  background-color: #fff1e6;
+  box-shadow: 0  2px 4px rgba(0, 0, 0, .2);
+  padding: 10px;
 }
 
-/*
- * A better looking default horizontal rule
- */
-
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
+header h2 {
+  margin-top: 0;
+}
+header h1 {
+  margin:0
 }
 
-/*
- * Remove the gap between audio, canvas, iframes,
- * images, videos and the bottom of their containers:
- * https://github.com/h5bp/html5-boilerplate/issues/440
- */
+img{
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  float: right;
+ margin-right: 3px;
+  margin-top: 3px;
+}
+ #description {
 
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
-  vertical-align: middle;
+  text-align: left;
+   width: 50%;
+  margin: 20px;
+   font-family: 'Sacramento', cursive;
+
+
 }
 
-/*
- * Remove default fieldset styles.
- */
-
-fieldset {
-  border: 0;
-  margin: 0;
-  padding: 0;
+section h2 {
+  border-bottom: 1px solid black;
 }
 
-/*
- * Allow only vertical resizing of textareas.
- */
-
-textarea {
-  resize: vertical;
+a {
+  width:100px;
+  text-decoration: none;
+  color: white;
 }
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
-
-/*
- * Hide visually and from screen readers
- */
-
-.hidden,
-[hidden] {
-  display: none !important;
+footer{
+  text-align: center;
 }
 
-/*
- * Hide only visually, but have it available for screen readers:
- * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
- *
- * 1. For long content, line feeds are not interpreted as spaces and small width
- *    causes content to wrap 1 word per line:
- *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
- */
-
-.sr-only {
-  border: 0;
-  clip: rect(0, 0, 0, 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  /* 1 */
+footer .fa{
+  font-size: 30px;
+  margin: 10px 20px;
 }
 
-/*
- * Extends the .sr-only class to allow the element
- * to be focusable when navigated to via the keyboard:
- * https://www.drupal.org/node/897638
- */
+/*.fa-facebook {*/
+/*  background: #3B5998;*/
+/*  color: white;*/
+/*  width: 50px;*/
+/*}*/
 
-.sr-only.focusable:active,
-.sr-only.focusable:focus {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  white-space: inherit;
-  width: auto;
+/*.fa-twitter {*/
+/*  background: #55ACEE;*/
+/*  color: white;*/
+/*  width: 50px;*/
+/*}*/
+/*.fa-linkedin {*/
+/*  background: #3B5998;*/
+/*  color: white;*/
+/*  width: 50px;*/
+/*}*/
+
+.btn-container{
+  margin: auto;
+  height:44px;
+  width:166.23px;
+  position: relative;
+  left: -350px;
+
+
+}
+#text{
+  display: none;
+}
+button{
+  user-select:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  cursor:pointer;
+  border:none;
+  padding:8px;
+  font-size:20px;
+  background:linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+  color:white;
+  font-family:cursive;
+  box-sizing:border-box;
+  float: left;
 }
 
-/*
- * Hide visually and from screen readers, but maintain layout
- */
 
-.invisible {
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
   visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
 }
 
-/*
- * Clearfix: contain floats
- *
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    `contenteditable` attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that receive the `clearfix` class.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
-
-.clearfix::before,
-.clearfix::after {
-  content: " ";
-  display: table;
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
 }
 
-.clearfix::after {
-  clear: both;
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
 }
-
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
-
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
-}
-
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
-}
-
-/* ==========================================================================
-   Print styles.
-   Inlined to avoid the additional HTTP request:
-   https://www.phpied.com/delay-loading-your-print-css/
-   ========================================================================== */
-
-@media print {
-  *,
-  *::before,
-  *::after {
-    background: #fff !important;
-    color: #000 !important;
-    /* Black prints faster */
-    box-shadow: none !important;
-    text-shadow: none !important;
-  }
-
-  a,
-  a:visited {
-    text-decoration: underline;
-  }
-
-  a[href]::after {
-    content: " (" attr(href) ")";
-  }
-
-  abbr[title]::after {
-    content: " (" attr(title) ")";
-  }
-
-  /*
-   * Don't show links that are fragment identifiers,
-   * or use the `javascript:` pseudo protocol
-   */
-  a[href^="#"]::after,
-  a[href^="javascript:"]::after {
-    content: "";
-  }
-
-  pre {
-    white-space: pre-wrap !important;
-  }
-
-  pre,
-  blockquote {
-    border: 1px solid #999;
-    page-break-inside: avoid;
-  }
-
-  /*
-   * Printing Tables:
-   * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
-   */
-  thead {
-    display: table-header-group;
-  }
-
-  tr,
-  img {
-    page-break-inside: avoid;
-  }
-
-  p,
-  h2,
-  h3 {
-    orphans: 3;
-    widows: 3;
-  }
-
-  h2,
-  h3 {
-    page-break-after: avoid;
-  }
-}
-

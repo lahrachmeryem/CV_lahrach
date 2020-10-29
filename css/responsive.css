@@ -1,0 +1,11 @@
+@media only screen and (max-width: 740px){
+  #wrapper {background-color: #f77;}
+}
+@media only screen and (max-width: 570px){
+  #wrapper {background-color: #f77;}
+}
+@media only screen and (max-width: 480px) {
+  #wrapper {
+    background-color: #f77;
+  }
+}

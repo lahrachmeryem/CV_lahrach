@@ -9,101 +9,135 @@
     <meta name="author" content="Lahrach Meryem">
     <meta name="viewport" content="width=device-width,initial-scale=1">
   <!--[if It IE 9]> <script src="http://html5shiv.googlecode.com/svn/trunk/htm15.js"></script><![endif]-->
+<!--  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+    <script src="js/index.js"></script>
 </head>
 <body>
     <div id="wrapper">
+
       <header>
-        <h1>Lahrach Meryem</h1>
-        <h2>étudiante en master DOSI</h2>
-        <img src="img/img.jpg" alt="photo de profil lahrach meryem"height="200px" width="200px"/>
-        <h2>2, rue des archives Brest</h2>
-        <h2>0760277755</h2>
-        <div class="social media">
-         <ul>
-           <li>Email   : Lahrachmeriem18@gmail.com</li>
-           <li>Facebook  : Lahrachmeriem</li>
-           <li>email   : @meryem-lahrach</li>
-         </ul>
-        </div>
-        <section id="description ">
-          Diplomée d'un master en big data science , et actuellement étudiante en m2 master développement logiciel, passionnée par le domaine d'informatique
-          et les nouvelles technologies , je cherche toujours à acquirir des nouvelles compétences.
+        <h1 class="pr">Lahrach Meryem</h1>
+      <img src="img/avatar.jpg" alt="photo de profil lahrach meryem"/>
+
+<!--        <div class="social media">-->
+<!--         <ul>-->
+<!--           <li>Email   : Lahrachmeriem18@gmail.com</li>-->
+<!--           <li>Facebook  : Lahrachmeriem</li>-->
+<!--           <li>email   : @meryem-lahrach</li>-->
+<!--         </ul>-->
+<!--        </div>-->
+        <section id="description">
+         <p> étudiante en m2 master développement logiciel, passionnée par le domaine d'informatique
+          et les nouvelles technologies ,je souhaite acquérir de nouvelles compétences.</p>
         </section>
       </header>
-       <section id="experiences">
-         <h2>Experiences professionnelles </h2>
-         <article>
-         <h3> STAGE de PFE </h3>
-         <h5> SOPRA BANKING SOFTWARE </h5>
-         <p> Développement d'un parseur pour le langage 4GL en nodejs</p>
-         </article>
-         <article>
-           <h3> STAGE d'été </h3>
-           <h5> Marsa Maroc </h5>
-           <p> Développement d'une application pour la gestion des navires</p>
-         </article>
-       </section>
-      <section id="Formation">
-        <h2>Formation </h2>
-        <article>
-       <dl>
-         <dt>Bac-2014</dt>
-         <dd>Baccalauréat en sciences physiques</dd>
 
-         <dt>licence-2018</dt>
-         <dd>Licence en mathématiques et informatique </dd>
+<section id="experience">
+    <h2>Experiences </h2>
+    <article>
+        <h3>Stage PFE</h3>
+        <span id="ex1">
+            <h5>2020-Sopra Banking Software</h5>
+            <p>Develeppement d'un parseur pour le langage 4GL</p>
+        </span>
+        <div class="btn-container">
+        <button id="toggle" onclick="dis('ex1'); hide('ex2','hide3','hide4','hide1','hide6');" >Details</button>
+        </div>
 
-         <dt>Master-2020</dt>
-         <dd>Master en big data et data science</dd>
+    <article>
 
-         <dt>Master-Présent</dt>
-         <dd>Master en develeppement logiciel pour les systemes d'information</dd>
-       </dl>
-        </article>
+        <h3>Stage d'été</h3>
+        <span id="ex2">
+        <h5>2019-Marsa Maroc</h5>
+        <p>Développement d'une application pour la gestion des navires</p>
+            </span>
+        <div class="btn-container">
+            <button id="toggle" onclick="dis('ex2'); hide('ex1','hide3','hide4','hide1','hide6')">Details</button>
+        </div>
+    </article>
+</section>
 
-      </section>
+<section id="formation">
+    <h2>Formations</h2>
+    <article>
+        <dl>
 
-      <section id="Compétences">
-        <h2>Compétences </h2>
-        <article>
-          <h4>Langage de programmation</h4>
-          <ul>
-            <li>JAVA/JEE</li>
-            <li>Javascript</li>
-            <li>Python</li>
-            <li>Node js</li>
-            <li>C/C++</li>
-          </ul>
-          <h4>Technologies</h4>
-          <ul>
-            <li>UML</li>
-            <li>GIT</li>
-            <li>SOA/RESTfull</li>
-            <li>Machine Learning</li>
-            <li>Big data</li>
-          </ul>
-          <h4></h4>
-        </article>
+            <dt>2014-Bac</dt>
+            <span id="fr1">
+                <dd>Baccalaureat en sciences physiques</dd>
+            </span>
+            <div class="btn-container">
+                <button id="toggle" onclick="dis('fr1'); hide('ex2','ex1','hide4','hide1','hide6');" >Details</button>
+            </div>
 
-      </section>
-      <section id="langues">
-        <h2>languages</h2>
+            <dt>2018-Licence</dt>
+            <span id="fr2">
+            <dd>Licence en Maths informatique option: Base de donnees</dd></dd></dd>
+            </span>
+            <div class="btn-container">
+                <button id="toggle" onclick="dis('fr2'); hide('ex2','ex1','fr1','hide1','hide6');" >Details</button>
+            </div>
+
+            <dt>2020-Master</dt>
+            <span id="fr3">
+            <dd>Master en big data et data science</dd>
+            </span>
+            <div class="btn-container">
+                <button id="toggle" onclick="dis('fr3'); hide('ex2','ex1','fr1','fr2','hide6');" >Details</button>
+            </div>
+            <dt>2020-Master</dt>
+            <span id="fr4">
+            <dd>Master en develeppement logiciel pour les systemes d'information</dd>
+            </span>
+            <div class="btn-container">
+                <button id="toggle" onclick="dis('fr4'); hide('ex2','ex1','fr1','fr2','fr3');" >Details</button>
+            </div>
+        </dl>
+    </article>
+
+</section>
+
+<section id="competence">
+    <h2>Compétences</h2>
+    <article>
+        <h4>Langages informatiques</h4>
         <ul>
-          <li>Français</li>
-          <li>Anglais</li>
-          <li>Arabe</li>
+            <li>C/C++</li>
+            <div class="tooltip">Hover over me
+                <span class="tooltiptext">Tooltip text</span>
+            </div>
+            <li>JAVA/JEE</li>
+            <li>JAVASCRIPT</li>
+            <li>PYTHON</li>
+            <li>NODEJS</li>
         </ul>
-      </section>
-      <footer>
-        <a href="#" class="fa fa-facebook"></a>
-        <a href="#" class="fa fa-twitter"></a>
-      </footer>
 
+        <h4>Technologies</h4>
+        <ul>
+            <li>GIT/GITHUB</li>
+            <li>UML</li>
+            <li>Machine learning</li>
+            <li>Big data</li>
+        </ul>
+    </article>
+</section>
 
-
-
-
-    </div>
+<section id="hobbies">
+    <h2>Loisirs</h2>
+    <ul>
+        <li>Jeux videos</li>
+        <li>Voyage</li>
+        <li>Litterature</li>
+    </ul>
+</section>
+<footer>
+    <a href="#"><i class="fa fa-facebook-official"></i></a>
+    <a href="#"><i class="fa fa-twitter"></i></a>
+    <a href="#"><i class="fa fa-linkedin"></i></a>
+</footer>
+</div>
 </body>
 </html>
