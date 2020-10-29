@@ -2,39 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d02d410-a03f-4297-8f66-f2541446dde0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/browserconfig.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/TOC.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/css.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/extend.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/faq.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/html.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/js.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/misc.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/usage.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/humans.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/img.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/plugins.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/vendor/modernizr-3.11.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site.webmanifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tile-wide.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tile.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ubo-resume.html" beforeDir="false" afterPath="$PROJECT_DIR$/ubo-resume.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603810713823</updated>
       <workItem from="1603810717363" duration="4125000" />
-      <workItem from="1603815018477" duration="35557000" />
+      <workItem from="1603815018477" duration="43926000" />
     </task>
     <servers />
   </component>
